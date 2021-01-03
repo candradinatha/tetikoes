@@ -4,9 +4,22 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const loader = document.querySelector('.loader');
+// const loadingBar = document.querySelector('.loading-bar');
+const showLoader = () => {
+  loader.classList.remove('loader--hide');
+  // loadingBar.classList.remove('loader--hide')
+} 
+const hideLoader = () => {
+  // loadingBar.classList.add('loader--hide')
+  loader.classList.add('loader--hide');
+}
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App
+      hideLoader={hideLoader}
+      showLoader={showLoader} />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,25 +1,46 @@
-import logo from './logo.svg';
+import React from 'react';
+import './index.css';
+import iconDevelopment from "./icon_cat.png";
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+
+    componentDidMount() {
+        setTimeout(() => {
+            this.props.hideLoader();
+        }, 2000)
+    }
+
+    render () {
+        return (
+            <div className="App">
+                <header className="App-header">
+                    <img src={iconDevelopment} className="App-logo" alt="logo" />
+                    <div
+                        className="App-header-text"
+                        >
+                        <text>Mohon Maaf Situs</text>
+                        <text className="App-bold"> Tetikoes.com</text>
+                    </div>
+                    <text>Sedang Dalam Pengerjaan</text>
+                    <a
+                        className="App-button"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://linktr.ee/tetikoesstudio">
+                            <text
+                                className="App-button-text"
+                                rel="noopener noreferrer"
+                                >
+                                Pemesanan dapat melalui
+                            </text>
+                            <text
+                                className="App-button-text-bold"> linktr.ee/tetikoesstudio</text> 
+                    </a>
+                </header>
+            </div>
+        );
+    }
 }
 
 export default App;
