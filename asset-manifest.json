@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/tetikoes/static/css/main.6078ef56.chunk.css",
+    "main.js": "/tetikoes/static/js/main.a6ec15ab.chunk.js",
+    "main.js.map": "/tetikoes/static/js/main.a6ec15ab.chunk.js.map",
+    "runtime-main.js": "/tetikoes/static/js/runtime-main.77024136.js",
+    "runtime-main.js.map": "/tetikoes/static/js/runtime-main.77024136.js.map",
+    "static/js/2.bb9c4b2e.chunk.js": "/tetikoes/static/js/2.bb9c4b2e.chunk.js",
+    "static/js/2.bb9c4b2e.chunk.js.map": "/tetikoes/static/js/2.bb9c4b2e.chunk.js.map",
+    "static/js/3.c5778e2c.chunk.js": "/tetikoes/static/js/3.c5778e2c.chunk.js",
+    "static/js/3.c5778e2c.chunk.js.map": "/tetikoes/static/js/3.c5778e2c.chunk.js.map",
+    "index.html": "/tetikoes/index.html",
+    "static/css/main.6078ef56.chunk.css.map": "/tetikoes/static/css/main.6078ef56.chunk.css.map",
+    "static/js/2.bb9c4b2e.chunk.js.LICENSE.txt": "/tetikoes/static/js/2.bb9c4b2e.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/tetikoes/static/media/Montserrat-Medium.4b4a4b36.otf",
+    "static/media/icon_cat.7910ae4a.png": "/tetikoes/static/media/icon_cat.7910ae4a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77024136.js",
+    "static/js/2.bb9c4b2e.chunk.js",
+    "static/css/main.6078ef56.chunk.css",
+    "static/js/main.a6ec15ab.chunk.js"
+  ]
+}
